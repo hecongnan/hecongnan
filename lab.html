@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>代码库</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">我的代码库</h1>
+            <div class="flex space-x-4">
+                <a href="#" class="text-gray-600 hover:text-gray-800 transition duration-300"><i
+                        class="fa-solid fa-home"></i> 主页</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容区域 -->
+    <div class="container mx-auto px-4 py-8">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">代码库</h2>
+        <div class="space-y-6">
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/hPsrmFh6z9/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码1</a>
+                <p class="text-gray-600 mt-2">线性表的顺序存储结构的操作函数</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/fGFY343fVt/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码2</a>
+                <p class="text-gray-600 mt-2">线性表的链式存储结构的操作函数</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/YGtnmK2cTg/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码3</a>
+                <p class="text-gray-600 mt-2">折半查找</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/RH6sn5MCPM" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码4</a>
+                <p class="text-gray-600 mt-2">索引查找</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/tg29tt7D3D/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码5</a>
+                <p class="text-gray-600 mt-2">哈希查找(链式储存为例)</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/2jgbcwkBZd/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码6</a>
+                <p class="text-gray-600 mt-2">字符串的哈希(滚动哈希)</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/rWQyKsf9gn/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码7</a>
+                <p class="text-gray-600 mt-2">直接插入排序</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/MNChRXWzZW/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码8</a>
+                <p class="text-gray-600 mt-2">希尔排序</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/ChTgJF335r/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码9</a>
+                <p class="text-gray-600 mt-2">归并排序</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/kkVgHpVSJN/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码10</a>
+                <p class="text-gray-600 mt-2">快速排序</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://pastebin.ubuntu.com/p/YCp8cptH5t/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码11</a>
+                <p class="text-gray-600 mt-2">双指针法定位</p>
+            </div>
+            <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+                <a href="https://paste.ubuntu.com/p/tN44vF6k8f/" target="_blank"
+                    class="text-blue-500 hover:underline text-xl font-bold">代码12</a>
+                <p class="text-gray-600 mt-2">设线性表 L=(a₁, a₂, a₃, …, aₙ₋₂, aₙ₋₁, aₙ) 采用带头节点的单链表保存，链表中的节点定义如下：
+                    c
+                    typedef struct node
+                    {
+                        int data;
+                        struct node* next;
+                    }NODE;
+                    
+                    请设计一个空间复杂度为 O (1) 且时间上尽可能高效的算法，重新排列 L 中的各节点，得到线性表 L’=(a₁, aₙ, a₂, aₙ₋₁, a₃, aₙ₋₂, …)。要求：
+                    1）给出算法的基本设计思想。
+                    2）根据设计思想，采用 C 或 C++ 语言描述算法，关键之处给出注释。
+                    3）说明你所设计算法的时间复杂度。</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/ksYCbVW7Zg/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码11</a>
+            <p class="text-gray-600 mt-2">链表是否有环及环的起点</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/rxgGJnchS2/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码12</a>
+            <p class="text-gray-600 mt-2">双向链表的操作函数</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/cnVXktwRrf/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码13</a>
+            <p class="text-gray-600 mt-2">顺序栈的操作函数</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/fQKGtFb7R4/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码14</a>
+            <p class="text-gray-600 mt-2">链栈的操作函数</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/cvZxGhVTHF/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码15</a>
+            <p class="text-gray-600 mt-2">顺序队列的操作函数</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/8vv9ZgBMsQ/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码16</a>
+            <p class="text-gray-600 mt-2">循环队列的顺序操作函数</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/WGDHH3xtv3/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码17</a>
+            <p class="text-gray-600 mt-2">链队列的操作函数</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/kHXpVNdZWq/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码18</a>
+            <p class="text-gray-600 mt-2">栈的应用:后缀表达式求值</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/SnTndcP9Ht/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码19</a>
+            <p class="text-gray-600 mt-2">栈的应用:中缀表达式转后缀表达式</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/QMdRsJqgCf/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码20</a>
+            <p class="text-gray-600 mt-2">二叉树的前中后序遍历（递归）</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/tbDXP6kDQh/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码21</a>
+            <p class="text-gray-600 mt-2">线索二叉树</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/kDPmdfC2p9/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码22</a>
+            <p class="text-gray-600 mt-2">求二叉树的最大深度（层序遍历）（队列）</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/g7JrKhGVqq/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码23</a>
+            <p class="text-gray-600 mt-2">求带权路径长度WPL</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/C6D8bmt4kx/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码24</a>
+            <p class="text-gray-600 mt-2">深度优先</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/zx7dYXpHPc/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码25</a>
+            <p class="text-gray-600 mt-2">广度优先</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/jNqjkkH5Wy/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码26</a>
+            <p class="text-gray-600 mt-2">最小生成树--prim算法</p>
+        </div>
+        <div class="bg-white rounded-md shadow-md p-6 hover:shadow-lg transition duration-300">
+            <a href="https://paste.ubuntu.com/p/w3gbhP3j29/" target="_blank"
+                class="text-blue-500 hover:underline text-xl font-bold">代码27</a>
+            <p class="text-gray-600 mt-2">最小生成树--kruskal算法</p>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="bg-white shadow-md mt-8">
+        <div class="container mx-auto px-4 py-3 text-center text-gray-600">
+            &copy; 2025 何聪楠--数据结构 保留所有权利.
+        </div>
+    </footer>
+</body>
+
+</html>
+    
